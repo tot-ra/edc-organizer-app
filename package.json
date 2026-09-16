@@ -1,0 +1,22 @@
+{
+  "name": "edc-organizer-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Everyday carry organizer: bags, sections, items, weight and volume tracking with 3D visualization",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,magenta \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w server && npm run build -w client",
+    "start": "npm run start -w server",
+    "typecheck": "npm run typecheck -w server && npm run typecheck -w client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
