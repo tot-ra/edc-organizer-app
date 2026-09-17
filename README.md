@@ -5,6 +5,9 @@ in the RV, at home), sections inside bags, and items with weight and dimensions.
 per-item weight, bag volume usage, drag-and-drop placement of items into sections, and a 3D view
 of bags on a person / car / RV / house plus a 3D look inside each bag.
 
+<img width="1057" height="723" alt="Screenshot 2026-09-17 at 20 41 14" src="https://github.com/user-attachments/assets/f9e3d546-7673-4d96-98b6-a2d00ff66bf5" />
+
+
 ## Stack
 
 - Client: Vite 8 + React 19 + TypeScript, three.js via react-three-fiber/drei, dnd-kit, TanStack Query, react-router.
